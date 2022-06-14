@@ -1,0 +1,14 @@
+.logo {
+  display: flex;
+}
+.logo-path {
+  @extend %transition;
+}
+.logo-svg:hover {
+  .logo-path {
+    fill: $color-primary;
+  }
+}
+.logo-object {
+  width: 160px;
+}
